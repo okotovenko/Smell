@@ -1359,82 +1359,82 @@ body {
 }
 
 .contact__container-small :nth-child(1).contact__decor,
-.contact__container-small :nth-child(1).picture {
+.contact__container-small :nth-child(1) picture {
   top: 60%;
 }
 
 .contact__container-small :nth-child(2).contact__decor,
-.contact__container-small :nth-child(2).picture {
+.contact__container-small :nth-child(2) picture {
   left: -3.125rem;
   top: 20%;
 }
 
 .contact__container-small :nth-child(3).contact__decor,
-.contact__container-small :nth-child(3).picture {
+.contact__container-small :nth-child(3) picture {
   left: 15%;
   top: 0;
 }
 
 .contact__container-small :nth-child(4).contact__decor,
-.contact__container-small :nth-child(4).picture {
+.contact__container-small :nth-child(4) picture {
   left: 33%;
   top: 1.25rem;
 }
 
 .contact__container-small :nth-child(5).contact__decor,
-.contact__container-small :nth-child(5).picture {
+.contact__container-small :nth-child(5) picture {
   right: 25%;
   top: 0.625rem;
 }
 
 .contact__container-small :nth-child(6).contact__decor,
-.contact__container-small :nth-child(6).picture {
+.contact__container-small :nth-child(6) picture {
   right: 14%;
   top: 4.375rem;
 }
 
 .contact__container-small :nth-child(7).contact__decor,
-.contact__container-small :nth-child(7).picture {
+.contact__container-small :nth-child(7) picture {
   top: 2.5rem;
 }
 
 .contact__container-small :nth-child(8).contact__decor,
-.contact__container-small :nth-child(8).picture {
+.contact__container-small :nth-child(8) picture {
   top: 50%;
 }
 
 .contact__container-small :nth-child(9).contact__decor,
-.contact__container-small :nth-child(9).picture {
+.contact__container-small :nth-child(9) picture {
   right: 4%;
   bottom: 0;
 }
 
 .contact__container-small :nth-child(10).contact__decor,
-.contact__container-small :nth-child(10).picture {
+.contact__container-small :nth-child(10) picture {
   right: 27%;
   bottom: 2.1875rem;
 }
 
 .contact__container-small :nth-child(11).contact__decor,
-.contact__container-small :nth-child(11).picture {
+.contact__container-small :nth-child(11) picture {
   left: 30%;
   bottom: 2.1875rem;
 }
 
 .contact__container-small :nth-child(12).contact__decor,
-.contact__container-small :nth-child(12).picture {
+.contact__container-small :nth-child(12) picture {
   left: 14%;
   bottom: 0.625rem;
 }
 
 .contact__container-small :nth-child(13).contact__decor,
-.contact__container-small :nth-child(13).picture {
+.contact__container-small :nth-child(13) picture {
   left: 1.25rem;
   bottom: 2.5rem;
 }
 
 .contact__container-small :nth-child(14).contact__decor,
-.contact__container-small :nth-child(14).picture {
+.contact__container-small :nth-child(14) picture {
   display: none;
 }
 
@@ -1602,8 +1602,8 @@ body {
   mix-blend-mode: difference;
 }
 
-.banner__container-small picture.banner__img-gradient source,
-.banner__container-small picture.banner__img-gradient img {
+.banner__container-small picture source,
+.banner__container-small picture img {
   position: absolute;
   top: 0;
   left: 5%;
@@ -1956,8 +1956,8 @@ body {
   mix-blend-mode: normal !important;
 }
 
-.banner-all__container-small picture.banner-all__img-gradient source,
-.banner-all__container-small picture.banner-all__img-gradient img {
+.banner-all__container-small picture source,
+.banner-all__container-small picture img {
   position: absolute;
   top: 0;
   left: 5%;
@@ -2684,17 +2684,17 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1).picture {
+  .contact__container-small :nth-child(1) picture {
     left: -5rem;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7).picture {
+  .contact__container-small :nth-child(7) picture {
     right: -5rem;
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8).picture {
+  .contact__container-small :nth-child(8) picture {
     right: -7.5rem;
   }
 
@@ -2982,8 +2982,8 @@ body {
     left: -15%;
   }
 
-  .banner__container-small picture.banner__img-gradient source,
-  .banner__container-small picture.banner__img-gradient img {
+  .banner__container-small picture source,
+  .banner__container-small picture img {
     width: 150%;
     left: -15%;
   }
@@ -2994,8 +2994,8 @@ body {
     left: 0;
   }
 
-  .banner-all__container-small picture.banner-all__img-gradient source,
-  .banner-all__container-small picture.banner-all__img-gradient img {
+  .banner-all__container-small picture source,
+  .banner-all__container-small picture img {
     width: 150%;
     left: -15%;
   }
@@ -3078,8 +3078,8 @@ body {
     left: -10%;
   }
 
-  .banner__container-small picture.banner__img-gradient source,
-  .banner__container-small picture.banner__img-gradient img {
+  .banner__container-small picture source,
+  .banner__container-small picture img {
     width: 100%;
     left: -10%;
   }
@@ -3090,8 +3090,8 @@ body {
     left: 0;
   }
 
-  .banner-all__container-small picture.banner-all__img-gradient source,
-  .banner-all__container-small picture.banner-all__img-gradient img {
+  .banner-all__container-small picture source,
+  .banner-all__container-small picture img {
     width: 100%;
     left: -10%;
   }
@@ -3399,17 +3399,17 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1).picture {
+  .contact__container-small :nth-child(1) picture {
     left: 1.875rem;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7).picture {
+  .contact__container-small :nth-child(7) picture {
     right: 0.0000000625rem;
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8).picture {
+  .contact__container-small :nth-child(8) picture {
     right: 0.0000000625rem;
   }
 
@@ -3713,8 +3713,8 @@ body {
     top: -100%;
   }
 
-  .banner__container-small picture.banner__img-gradient source,
-  .banner__container-small picture.banner__img-gradient img {
+  .banner__container-small picture source,
+  .banner__container-small picture img {
     left: 10%;
     width: 200%;
     height: 400%;
@@ -3783,8 +3783,8 @@ body {
     top: 0;
   }
 
-  .banner-all__container-small picture.banner-all__img-gradient source,
-  .banner-all__container-small picture.banner-all__img-gradient img {
+  .banner-all__container-small picture source,
+  .banner-all__container-small picture img {
     left: 10%;
     width: 200%;
     height: 400%;
@@ -4146,13 +4146,13 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1).picture {
+  .contact__container-small :nth-child(1) picture {
     width: 2.5625rem;
     height: 2.5625rem;
   }
 
   .contact__container-small :nth-child(2).contact__decor,
-  .contact__container-small :nth-child(2).picture {
+  .contact__container-small :nth-child(2) picture {
     -webkit-transform: scale(0.35) !important;
         -ms-transform: scale(0.35) !important;
             transform: scale(0.35) !important;
@@ -4160,7 +4160,7 @@ body {
   }
 
   .contact__container-small :nth-child(3).contact__decor,
-  .contact__container-small :nth-child(3).picture {
+  .contact__container-small :nth-child(3) picture {
     top: 0.625rem;
     left: 80%;
     width: 4.1875rem;
@@ -4168,22 +4168,22 @@ body {
   }
 
   .contact__container-small :nth-child(4).contact__decor,
-  .contact__container-small :nth-child(4).picture {
+  .contact__container-small :nth-child(4) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(5).contact__decor,
-  .contact__container-small :nth-child(5).picture {
+  .contact__container-small :nth-child(5) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(6).contact__decor,
-  .contact__container-small :nth-child(6).picture {
+  .contact__container-small :nth-child(6) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7).picture {
+  .contact__container-small :nth-child(7) picture {
     left: 15%;
     top: 0;
     width: 3.5rem;
@@ -4191,12 +4191,12 @@ body {
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8).picture {
+  .contact__container-small :nth-child(8) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(9).contact__decor,
-  .contact__container-small :nth-child(9).picture {
+  .contact__container-small :nth-child(9) picture {
     left: 43%;
     bottom: 0;
     width: 3.375rem;
@@ -4204,17 +4204,17 @@ body {
   }
 
   .contact__container-small :nth-child(10).contact__decor,
-  .contact__container-small :nth-child(10).picture {
+  .contact__container-small :nth-child(10) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(11).contact__decor,
-  .contact__container-small :nth-child(11).picture {
+  .contact__container-small :nth-child(11) picture {
     display: none;
   }
 
   .contact__container-small :nth-child(12).contact__decor,
-  .contact__container-small :nth-child(12).picture {
+  .contact__container-small :nth-child(12) picture {
     left: 80%;
     bottom: 22%;
     width: 4.5rem;
@@ -4222,7 +4222,7 @@ body {
   }
 
   .contact__container-small :nth-child(13).contact__decor,
-  .contact__container-small :nth-child(13).picture {
+  .contact__container-small :nth-child(13) picture {
     left: 77%;
     top: 3.125rem;
     width: 12.5rem;
@@ -4233,7 +4233,7 @@ body {
   }
 
   .contact__container-small :nth-child(14).contact__decor,
-  .contact__container-small :nth-child(14).picture {
+  .contact__container-small :nth-child(14) picture {
     display: block;
     left: -6.875rem;
     top: -1.25rem;
@@ -4297,8 +4297,8 @@ body {
     width: 300%;
   }
 
-  .banner__container-small picture.banner__img-gradient source,
-  .banner__container-small picture.banner__img-gradient img {
+  .banner__container-small picture source,
+  .banner__container-small picture img {
     top: -180%;
     left: -45%;
     width: 300%;
@@ -4382,8 +4382,8 @@ body {
     width: 260%;
   }
 
-  .banner-all__container-small picture.banner-all__img-gradient source,
-  .banner-all__container-small picture.banner-all__img-gradient img {
+  .banner-all__container-small picture source,
+  .banner-all__container-small picture img {
     top: -180%;
     left: -45%;
     width: 300%;
@@ -5282,42 +5282,42 @@ body {
 
 @supports (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1).picture {
+    .contact__container-small :nth-child(1) picture {
       left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem );
     }
 }
 
 @supports not (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1).picture {
+    .contact__container-small :nth-child(1) picture {
       left: calc(1.875rem + -6.875 * (100vw - 20rem) / 95.625);
     }
 }
 
 @supports (right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(7).contact__decor,
-    .contact__container-small :nth-child(7).picture {
+    .contact__container-small :nth-child(7) picture {
       right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem );
     }
 }
 
 @supports not (right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(7).contact__decor,
-    .contact__container-small :nth-child(7).picture {
+    .contact__container-small :nth-child(7) picture {
       right: calc(0.0000000625rem + -5.0000000625 * (100vw - 20rem) / 95.625);
     }
 }
 
 @supports (right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(8).contact__decor,
-    .contact__container-small :nth-child(8).picture {
+    .contact__container-small :nth-child(8) picture {
       right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem );
     }
 }
 
 @supports not (right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(8).contact__decor,
-    .contact__container-small :nth-child(8).picture {
+    .contact__container-small :nth-child(8) picture {
       right: calc(0.0000000625rem + -7.5000000625 * (100vw - 20rem) / 95.625);
     }
 }
