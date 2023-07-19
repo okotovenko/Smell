@@ -1347,95 +1347,95 @@ body {
 }
 
 .contact__container-small :nth-child(1).contact__decor,
-.contact__container-small :nth-child(1) picture {
+.contact__container-small > :nth-child(1) {
   position: absolute;
   top: 60%;
 }
 
 .contact__container-small :nth-child(2).contact__decor,
-.contact__container-small :nth-child(2) picture {
+.contact__container-small > :nth-child(2) {
   position: absolute;
   left: -3.125rem;
   top: 20%;
 }
 
 .contact__container-small :nth-child(3).contact__decor,
-.contact__container-small :nth-child(3) picture {
+.contact__container-small > :nth-child(3) {
   position: absolute;
   left: 15%;
   top: 0;
 }
 
 .contact__container-small :nth-child(4).contact__decor,
-.contact__container-small :nth-child(4) picture {
+.contact__container-small > :nth-child(4) {
   position: absolute;
   left: 33%;
   top: 1.25rem;
 }
 
 .contact__container-small :nth-child(5).contact__decor,
-.contact__container-small :nth-child(5) picture {
+.contact__container-small > :nth-child(5) {
   position: absolute;
   right: 25%;
   top: 0.625rem;
 }
 
 .contact__container-small :nth-child(6).contact__decor,
-.contact__container-small :nth-child(6) picture {
+.contact__container-small > :nth-child(6) {
   position: absolute;
   right: 14%;
   top: 4.375rem;
 }
 
 .contact__container-small :nth-child(7).contact__decor,
-.contact__container-small :nth-child(7) picture {
+.contact__container-small > :nth-child(7) {
   position: absolute;
   top: 2.5rem;
 }
 
 .contact__container-small :nth-child(8).contact__decor,
-.contact__container-small :nth-child(8) picture {
+.contact__container-small > :nth-child(8) {
   position: absolute;
   top: 50%;
 }
 
 .contact__container-small :nth-child(9).contact__decor,
-.contact__container-small :nth-child(9) picture {
+.contact__container-small > :nth-child(9) {
   position: absolute;
   right: 4%;
   bottom: 0;
 }
 
 .contact__container-small :nth-child(10).contact__decor,
-.contact__container-small :nth-child(10) picture {
+.contact__container-small > :nth-child(10) {
   position: absolute;
   right: 27%;
   bottom: 2.1875rem;
 }
 
 .contact__container-small :nth-child(11).contact__decor,
-.contact__container-small :nth-child(11) picture {
+.contact__container-small > :nth-child(11) {
   position: absolute;
   left: 30%;
   bottom: 2.1875rem;
 }
 
 .contact__container-small :nth-child(12).contact__decor,
-.contact__container-small :nth-child(12) picture {
+.contact__container-small > :nth-child(12) {
   position: absolute;
   left: 14%;
   bottom: 0.625rem;
 }
 
 .contact__container-small :nth-child(13).contact__decor,
-.contact__container-small :nth-child(13) picture {
+.contact__container-small > :nth-child(13) {
   position: absolute;
   left: 1.25rem;
   bottom: 2.5rem;
 }
 
 .contact__container-small :nth-child(14).contact__decor,
-.contact__container-small :nth-child(14) picture {
+.contact__container-small > :nth-child(14) {
   display: none;
 }
 
@@ -2681,17 +2681,17 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small > :nth-child(1) {
     left: -5rem;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7) picture {
+  .contact__container-small > :nth-child(7) {
     right: -5rem;
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8) picture {
+  .contact__container-small > :nth-child(8) {
     right: -7.5rem;
   }
 
@@ -3392,17 +3392,17 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small > :nth-child(1) {
     left: 1.875rem;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7) picture {
+  .contact__container-small > :nth-child(7) {
     right: 0.0000000625rem;
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8) picture {
+  .contact__container-small > :nth-child(8) {
     right: 0.0000000625rem;
   }
 
@@ -4139,13 +4139,13 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small > :nth-child(1) {
     width: 2.5625rem;
     height: 2.5625rem;
   }
 
   .contact__container-small :nth-child(2).contact__decor,
-  .contact__container-small :nth-child(2) picture {
+  .contact__container-small > :nth-child(2) {
     -webkit-transform: scale(0.35) !important;
         -ms-transform: scale(0.35) !important;
             transform: scale(0.35) !important;
@@ -4153,7 +4153,7 @@ body {
   }
 
   .contact__container-small :nth-child(3).contact__decor,
-  .contact__container-small :nth-child(3) picture {
+  .contact__container-small > :nth-child(3) {
     top: 0.625rem;
     left: 80%;
     width: 4.1875rem;
@@ -4161,22 +4161,22 @@ body {
   }
 
   .contact__container-small :nth-child(4).contact__decor,
-  .contact__container-small :nth-child(4) picture {
+  .contact__container-small > :nth-child(4) {
     display: none;
   }
 
   .contact__container-small :nth-child(5).contact__decor,
-  .contact__container-small :nth-child(5) picture {
+  .contact__container-small > :nth-child(5) {
     display: none;
   }
 
   .contact__container-small :nth-child(6).contact__decor,
-  .contact__container-small :nth-child(6) picture {
+  .contact__container-small > :nth-child(6) {
     display: none;
   }
 
   .contact__container-small :nth-child(7).contact__decor,
-  .contact__container-small :nth-child(7) picture {
+  .contact__container-small > :nth-child(7) {
     left: 15%;
     top: 0;
     width: 3.5rem;
@@ -4184,12 +4184,12 @@ body {
   }
 
   .contact__container-small :nth-child(8).contact__decor,
-  .contact__container-small :nth-child(8) picture {
+  .contact__container-small > :nth-child(8) {
     display: none;
   }
 
   .contact__container-small :nth-child(9).contact__decor,
-  .contact__container-small :nth-child(9) picture {
+  .contact__container-small > :nth-child(9) {
     left: 43%;
     bottom: 0;
     width: 3.375rem;
@@ -4197,17 +4197,17 @@ body {
   }
 
   .contact__container-small :nth-child(10).contact__decor,
-  .contact__container-small :nth-child(10) picture {
+  .contact__container-small > :nth-child(10) {
     display: none;
   }
 
   .contact__container-small :nth-child(11).contact__decor,
-  .contact__container-small :nth-child(11) picture {
+  .contact__container-small > :nth-child(11) {
     display: none;
   }
 
   .contact__container-small :nth-child(12).contact__decor,
-  .contact__container-small :nth-child(12) picture {
+  .contact__container-small > :nth-child(12) {
     left: 80%;
     bottom: 22%;
     width: 4.5rem;
@@ -4215,7 +4215,7 @@ body {
   }
 
   .contact__container-small :nth-child(13).contact__decor,
-  .contact__container-small :nth-child(13) picture {
+  .contact__container-small > :nth-child(13) {
     left: 77%;
     top: 3.125rem;
     width: 12.5rem;
@@ -4226,7 +4226,7 @@ body {
   }
 
   .contact__container-small :nth-child(14).contact__decor,
-  .contact__container-small :nth-child(14) picture {
+  .contact__container-small > :nth-child(14) {
     position: absolute;
     display: block;
     left: -6.875rem;
@@ -5264,42 +5264,42 @@ body {
 
 @supports (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1) picture {
+    .contact__container-small > :nth-child(1) {
       left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem );
     }
 }
 
 @supports not (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1) picture {
+    .contact__container-small > :nth-child(1) {
       left: calc(1.875rem + -6.875 * (100vw - 20rem) / 95.625);
     }
 }
 
 @supports (right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(7).contact__decor,
-    .contact__container-small :nth-child(7) picture {
+    .contact__container-small > :nth-child(7) {
       right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem );
     }
 }
 
 @supports not (right: clamp( -5rem , 1.0457517096rem  +  -5.2287582353vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(7).contact__decor,
-    .contact__container-small :nth-child(7) picture {
+    .contact__container-small > :nth-child(7) {
       right: calc(0.0000000625rem + -5.0000000625 * (100vw - 20rem) / 95.625);
     }
 }
 
 @supports (right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(8).contact__decor,
-    .contact__container-small :nth-child(8) picture {
+    .contact__container-small > :nth-child(8) {
       right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem );
     }
 }
 
 @supports not (right: clamp( -7.5rem , 1.5686275266rem  +  -7.8431373203vw , 0.0000000625rem )) {
     .contact__container-small :nth-child(8).contact__decor,
-    .contact__container-small :nth-child(8) picture {
+    .contact__container-small > :nth-child(8) {
       right: calc(0.0000000625rem + -7.5000000625 * (100vw - 20rem) / 95.625);
     }
 }
