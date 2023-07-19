@@ -486,6 +486,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  min-height: 365px;
 }
 
 .video video source {
@@ -648,6 +649,7 @@ body {
 
 .what__items {
   width: 100%;
+  row-gap: 2.5rem;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -1359,18 +1361,18 @@ body {
 }
 
 .contact__container-small :nth-child(1).contact__decor,
-.contact__container-small :nth-child(1) picture {
+.contact__container-small :nth-child(1) {
   top: 60%;
 }
 
 .contact__container-small :nth-child(2).contact__decor,
-.contact__container-small :nth-child(2) picture {
+.contact__container-small :nth-child(2) {
   left: -3.125rem;
   top: 20%;
 }
 
 .contact__container-small :nth-child(3).contact__decor,
-.contact__container-small :nth-child(3) picture {
+.contact__container-small :nth-child(3) {
   left: 15%;
   top: 0;
 }
@@ -1992,7 +1994,7 @@ body {
   margin: 0 !important;
 }
 
-.banner-all img.banner-all__img-front-small,
+.banner-all img.banner__img-front.banner-all__img-front-small,
 .banner-all picture.banner-all__img-front-small {
   display: none;
 }
@@ -2529,10 +2531,6 @@ body {
             column-gap: 4.75rem;
   }
 
-  .what__items {
-    row-gap: 2.5rem;
-  }
-
   .what__item {
     gap: 1.8125rem;
   }
@@ -2684,7 +2682,7 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small :nth-child(1) {
     left: -5rem;
   }
 
@@ -3244,10 +3242,6 @@ body {
             column-gap: 1.25rem;
   }
 
-  .what__items {
-    row-gap: 2.5rem;
-  }
-
   .what__item {
     gap: 0.9375rem;
   }
@@ -3399,7 +3393,7 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small :nth-child(1) {
     left: 1.875rem;
   }
 
@@ -3805,7 +3799,7 @@ body {
     display: none;
   }
 
-  .banner-all img.banner-all__img-front-small,
+  .banner-all img.banner__img-front.banner-all__img-front-small,
   .banner-all picture.banner-all__img-front-small {
     display: block;
     position: relative;
@@ -4146,13 +4140,13 @@ body {
   }
 
   .contact__container-small :nth-child(1).contact__decor,
-  .contact__container-small :nth-child(1) picture {
+  .contact__container-small :nth-child(1) {
     width: 2.5625rem;
     height: 2.5625rem;
   }
 
   .contact__container-small :nth-child(2).contact__decor,
-  .contact__container-small :nth-child(2) picture {
+  .contact__container-small :nth-child(2) {
     -webkit-transform: scale(0.35) !important;
         -ms-transform: scale(0.35) !important;
             transform: scale(0.35) !important;
@@ -4160,7 +4154,7 @@ body {
   }
 
   .contact__container-small :nth-child(3).contact__decor,
-  .contact__container-small :nth-child(3) picture {
+  .contact__container-small :nth-child(3) {
     top: 0.625rem;
     left: 80%;
     width: 4.1875rem;
@@ -4820,18 +4814,6 @@ body {
     }
 }
 
-@supports (row-gap: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem )) {
-    .what__items {
-      row-gap: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem );
-    }
-}
-
-@supports not (row-gap: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem )) {
-    .what__items {
-      row-gap: calc(2.5rem + 0 * (100vw - 20rem) / 95.625);
-    }
-}
-
 @supports (gap: clamp( 0.9375rem , 0.7544934641rem  +  0.9150326797vw , 1.8125rem )) {
     .what__item {
       gap: clamp( 0.9375rem , 0.7544934641rem  +  0.9150326797vw , 1.8125rem );
@@ -5282,14 +5264,14 @@ body {
 
 @supports (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1) picture {
+    .contact__container-small :nth-child(1) {
       left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem );
     }
 }
 
 @supports not (left: clamp( -5rem , 3.3129084967rem  +  -7.1895424837vw , 1.875rem )) {
     .contact__container-small :nth-child(1).contact__decor,
-    .contact__container-small :nth-child(1) picture {
+    .contact__container-small :nth-child(1) {
       left: calc(1.875rem + -6.875 * (100vw - 20rem) / 95.625);
     }
 }
